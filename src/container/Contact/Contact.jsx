@@ -4,7 +4,7 @@ import './Contact.scss';
 
 const Result = () => {
     return(
-        <p>Twoja wiadomość została wysłana pomyślnie. Wkrótce damy odpowiedź. Dziękujemy</p>
+       <p>Twoja wiadomość została wysłana pomyślnie.<br/> Wkrótce damy odpowiedź. Dziękujemy</p>
     )
 }
 

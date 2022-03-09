@@ -5,6 +5,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 5%;
+  p{
+    text-align: center;
+    width: 50%;
+  }
 }
 .contact__overlay {
   padding-top: 10%;
@@ -91,7 +95,10 @@ form button:hover {
 
   .contactme{
     height: 80vh;
-
+    p{
+      text-align: center;
+      width: 100%;
+    }
     .contact__overlay {
       height: 80vh;
     }
