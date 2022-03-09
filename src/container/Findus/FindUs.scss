@@ -1,0 +1,115 @@
+.app__findus{
+  margin: 25px;
+  .findus__title{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    color:var(--color-blue);
+    font-size: 4rem;
+  }
+  .findus__content{
+    display: flex;
+    justify-content: space-around;
+  }
+  .findus__content-right{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    li {
+      font-size: 1.5rem;
+      line-height: 50px;
+      display: flex;
+      justify-content: space-between;
+      color: var(--color-blue);
+      span{
+        margin-left: 80px;
+      }
+      }
+    .findus__conent-button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 15px;
+      background-color: var(--color-blue);
+      border-radius: 3px;
+      transition: 0.5s linear;
+      width: 180px;
+      color: white;
+      text-transform: uppercase;
+      margin-top: 25px;
+
+      &:hover{
+        background-color: var(--color-grey);
+      }
+      a{
+
+        font-weight: bold;
+        text-align: center;
+        color: white;
+
+      }
+      &:hover{
+        color: var(--color-blue);
+      }
+    }
+    }
+  }
+.leaflet-container{
+  width: 50vw;
+  height: 50vh;
+}
+@media screen and (max-width: 650px) {
+  .app__findus {
+    .leaflet-container {
+      width: 90vw;
+      height: 45vh;
+      margin-bottom: 5px;
+      z-index: 4;
+    }
+  }
+  .app__findus .findus__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .app__findus .findus__title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .app__findus .findus__content-right li {
+   display:none;
+    }
+  }
+@media screen and (max-width: 990px) {
+  .leaflet-container{
+    width: 50vw;
+    height: 30vh;
+    margin-top: 25px;
+  }
+  .app__findus {
+    height: 50vh;
+  }
+
+  .findus__title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+  }
+  .app__findus .findus__content-right li {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 730px) {
+  .app__findus {
+    height: 75vh;
+  }
+
+  .app__findus .findus__content-right li {
+    font-size: 0.7rem;
+    span{
+      margin-left: 50px;
+    }
+  }
+}
+
