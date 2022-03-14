@@ -99,4 +99,19 @@ const navList =[
 
   }
 ]
-export default { subscription, day, hourly, navList };
+const contactInfo =[
+
+  {
+    className: "p__opensans",
+    name: "ul. Białoruska 45, 30-633 Kraków"
+  },
+  {
+    className: "p__opensans",
+    name: "Tel. 602-897-304"
+  },
+  {
+    className: "p__opensans",
+    name: "maksym73@icloud.com"
+  },
+]
+export default { subscription, day, hourly, navList, contactInfo };

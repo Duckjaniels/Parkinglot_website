@@ -7,10 +7,8 @@ import {data} from '../../constants';
 const Footer = () => (
   <div className="app__footer">
      <div className="app__footer-contact">
-         <h1 className="app__footer-headtext">Skontaktuj się z nami</h1>
-         <p className="p__opensans">ul. Białoruska 45, 30-633 Kraków</p>
-         <p className="p__opensans">Tel. 602-897-304</p>
-         <p className="p__opensans">e-mail: paring24h@info.krakow.pl</p>
+         <h1 className=" app__footer-headtext">Skontaktuj się z nami</h1>
+         {data.contactInfo.map(contactInfo =>(<p className={contactInfo.className}> {contactInfo.name}</p>))};
      </div>
       <div className="app_footer-nav">
           <ul className="app__navbar-footer-links">
