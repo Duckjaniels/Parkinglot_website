@@ -2,6 +2,7 @@ import React from 'react';
 import images from "../../constants/images";
 import './Footer.scss';
 import {Link} from "react-router-dom";
+import {data} from '../../constants';
 
 const Footer = () => (
   <div className="app__footer">
@@ -13,12 +14,7 @@ const Footer = () => (
      </div>
       <div className="app_footer-nav">
           <ul className="app__navbar-footer-links">
-              <li className="p__opensans"><Link to={"/home"}>Strona Główna</Link></li>
-              <li className="p__opensans"><Link to={"/about"}>O nas</Link></li>
-              <li className="p__opensans"><Link to={"/find"}>Lokalizacja</Link></li>
-              <li className="p__opensans"><Link to={"/pricing"}>Cennik</Link></li>
-              <li className="p__opensans"><Link to={"/rules"}>Regulamin</Link></li>
-              <li className="p__opensans"><Link to={"/contact"}>Kontakt</Link></li>
+              {data.navList.map(navList => (<li className={navList.className}> <Link to={navList.to}> {navList.name} </Link></li>))}
           </ul>
       </div>
       <div className={"app__footer-logo"}>

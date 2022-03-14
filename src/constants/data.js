@@ -1,5 +1,3 @@
-
-
 const subscription = [
   {
     title: 'Samochód osobowy',
@@ -68,5 +66,37 @@ const hourly = [
     tags: 'rower, rower elektryczny',
   },
 ];
+const navList =[
+  {
+    className: "p__opensans",
+    to: "/home",
+    name: "Strona Główna"
+  },
+  {
+    className: "p__opensans",
+    to: "/about",
+    name: "O nas"
+  },
+  {
+    className: "p__opensans",
+    to: "/find",
+    name: "Lokalizacja"
+  },
+  {
+    className: "p__opensans",
+    to: "/pricing",
+    name: "Cennik"
+  },
+  {
+    className: "p__opensans",
+    to: "/rules",
+    name: "Regulamin"
+  },
+  {
+    className: "p__opensans",
+    to: "/contact",
+    name: "Kontakt"
 
-export default { subscription, day, hourly };
+  }
+]
+export default { subscription, day, hourly, navList };
