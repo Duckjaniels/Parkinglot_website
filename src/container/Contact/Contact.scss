@@ -95,12 +95,22 @@ form button:hover {
 
   .contactme{
     height: 80vh;
-    p{
-      text-align: center;
-      width: 100%;
+    .contact__overlay{
+      padding-top: 5%;
+    }
+    .row {
+      margin-top: 20px;
+      flex-flow: nowrap;
+      flex-direction: column;
+      flex-grow: 1;
+
+      p {
+        text-align: center;
+        width: 100%;
+      }
     }
     .contact__overlay {
-      height: 80vh;
+      height: 100vh;
     }
     form{
       margin-top: 50px;
@@ -111,6 +121,14 @@ form button:hover {
   }
   .form__contact {
     width: 100%;
+    flex-direction: column;
+    .form__contact-date{
+      flex-direction: row;
+
+      span{
+        margin: 0 15px;
+      }
+    }
   }
   .form__contact textarea{
     width: 200px;
@@ -122,9 +140,17 @@ form button:hover {
 
     .form__contact {
       flex-direction: column;
+
+      .form__contact-date {
+        flex-direction: column;
+        span{
+          margin: 0;
+        }
+      }
     }
 
-    .contact__overlay {
+
+      .contact__overlay {
       height: 100vh;
     }
 
