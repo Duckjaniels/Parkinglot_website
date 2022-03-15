@@ -56,8 +56,8 @@ const Contact = () => {
             </div>
         </form>
                     </div>
-                <div className="app__footer-contact">
-                    <h2 className=" app__footer-headtext">Skontaktuj się z nami</h2>
+                <div className="app__contact-contact-info">
+                    <h2 className=" app__contact-headtext">Skontaktuj się z nami</h2>
                     {data.contactInfo.map(contactInfo =>(<p className={contactInfo.className}> {contactInfo.name}</p>))}
                 </div>
             </div>

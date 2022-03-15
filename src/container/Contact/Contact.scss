@@ -91,10 +91,24 @@ form button:hover {
   box-shadow: 0 0 48px 0 rgb(218, 218, 218);
   padding-left: 3%;
 }
+
+.app__contact-contact-info{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  h2{
+    text-align: center;
+    z-index: 9;
+    color: white;
+  }
+  p{
+    width: 100%;
+  }
+}
 @media screen and(max-width: 1150px) {
 
   .contactme{
-    height: 80vh;
+    height: 125vh;
     .contact__overlay{
       padding-top: 5%;
     }
@@ -110,7 +124,7 @@ form button:hover {
       }
     }
     .contact__overlay {
-      height: 100vh;
+      height: 125vh;
     }
     form{
       margin-top: 50px;
@@ -136,7 +150,7 @@ form button:hover {
 }
 @media screen and (max-width: 750px) {
   .contactme {
-    height: 100vh;
+    height: 110vh;
 
     .form__contact {
       flex-direction: column;
@@ -151,7 +165,7 @@ form button:hover {
 
 
       .contact__overlay {
-      height: 100vh;
+      height: 110vh;
     }
 
     form {
