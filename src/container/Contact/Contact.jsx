@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.scss';
+import {data} from "../../constants";
 
 const Result = () => {
     return(
@@ -55,6 +56,10 @@ const Contact = () => {
             </div>
         </form>
                     </div>
+                <div className="app__footer-contact">
+                    <h2 className=" app__footer-headtext">Skontaktuj się z nami</h2>
+                    {data.contactInfo.map(contactInfo =>(<p className={contactInfo.className}> {contactInfo.name}</p>))}
+                </div>
             </div>
         </div>
     );

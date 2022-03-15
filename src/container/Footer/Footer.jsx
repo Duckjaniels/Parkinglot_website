@@ -8,7 +8,7 @@ const Footer = () => (
   <div className="app__footer">
      <div className="app__footer-contact">
          <h1 className=" app__footer-headtext">Skontaktuj się z nami</h1>
-         {data.contactInfo.map(contactInfo =>(<p className={contactInfo.className}> {contactInfo.name}</p>))};
+         {data.contactInfo.map(contactInfo =>(<p className={contactInfo.className}> {contactInfo.name}</p>))}
      </div>
       <div className="app_footer-nav">
           <ul className="app__navbar-footer-links">
