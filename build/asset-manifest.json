@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.173b3eff.css",
+    "main.js": "/static/js/main.cd4c4910.js",
+    "static/media/gallery05.jpeg": "/static/media/gallery05.ee12801c8a254e6afeee.jpeg",
+    "static/media/gallery02.jpeg": "/static/media/gallery02.16d0830dcab827c90250.jpeg",
+    "static/media/gallery01.jpeg": "/static/media/gallery01.7637e253fc8a3e110f7c.jpeg",
+    "static/media/gallery03.jpeg": "/static/media/gallery03.b1409f383d4a636ebc80.jpeg",
+    "static/media/gallery04.jpeg": "/static/media/gallery04.7907c74003ef5935d368.jpeg",
+    "static/media/r8_parking.jpeg": "/static/media/r8_parking.81d1f1c89c4aaa2dd4d1.jpeg",
+    "static/media/bg_pricing.jpeg": "/static/media/bg_pricing.670224a5b6495f0e1c59.jpeg",
+    "static/media/regulamin_parking-kopia.pdf": "/static/media/regulamin_parking-kopia.4f09dec156d57303f67c.pdf",
+    "static/media/sign24h.jpeg": "/static/media/sign24h.90e073805a0f234d470f.jpeg",
+    "index.html": "/index.html",
+    "main.173b3eff.css.map": "/static/css/main.173b3eff.css.map",
+    "main.cd4c4910.js.map": "/static/js/main.cd4c4910.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.173b3eff.css",
+    "static/js/main.cd4c4910.js"
+  ]
+}
