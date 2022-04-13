@@ -7,7 +7,6 @@
 
   padding: 1rem 2rem;
 
-
   .app__navbar-logo {
     display: flex;
     justify-content: flex-start;
@@ -30,7 +29,8 @@
       cursor: pointer;
       color: var(--color-blue);
       font-weight: bold;
-
+      font-size: 1.2rem;
+      list-style: none;
     }
   }
 
@@ -42,6 +42,7 @@
     background-color: var(--color-blue);
     border-radius: 3px;
     transition: 0.5s linear;
+    margin-bottom: 15px;
 
     &:hover {
       background-color: var(--color-grey);
@@ -56,6 +57,7 @@
   .p__opensans {
     text-transform: uppercase;
     font-weight: bold;
+    list-style: none;
   }
 
   .p__opensans:hover {
@@ -90,7 +92,6 @@
     }
 
     .app__navbar-smallscreen-links {
-      list-style: none;
 
       li {
         margin: 1.3rem;
@@ -108,8 +109,14 @@
       width: 180px;
     }
   }
-
-  @media screen and (max-width: 1150px) {
+  @media screen and (max-width: 1400px) {
+    .app__navbar-links {
+      li {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  @media screen and (max-width: 1250px) {
     .app__navbar-links {
       display: none;
     }
