@@ -35,11 +35,16 @@
   }
 
   @media screen and (max-width: 650px) {
+    .app__aboutus {
+      height: 50vh;
+      padding: 30px;
+    }
     .aboutus__image {
       text-align: center;
       padding: 10px;
       border-radius: 50px;
-      img{
+
+      img {
         width: 70%;
         height: 70%;
       }
@@ -47,24 +52,26 @@
     .app__aboutus {
       padding: 10px;
     }
-      .aboutus__text-content {
-        text-align: center;
+    .aboutus__text-content {
+      text-align: center;
 
-        h1 {
-          font-size: 1.5rem;
-          padding: 10px;
+      h1 {
+        font-size: 1.5rem;
+        padding: 10px;
 
-        }
-        ul {
-          padding: 0;
-          margin: 0;
-        }
-        li {
-          font-size: 0.7rem;
-          line-height: 25px;
-        }
-        }
+      }
+
+      ul {
+        padding: 0;
+        margin: 0;
+      }
+
+      li {
+        font-size: 0.7rem;
+        line-height: 25px;
       }
     }
+  }
+}
 
 

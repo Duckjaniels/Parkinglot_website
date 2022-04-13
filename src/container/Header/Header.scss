@@ -1,28 +1,40 @@
+.header img {
+  height: 100vh;
+}
+
 @media screen and (max-width: 2000px) {
-  .header img{
+  .header img {
     filter: brightness(50%);
+    height: 100vh;
   }
-  .carousel__title  {
+  .carousel__title {
     font-size: 6rem;
   }
-  .carousel__subtitle{
+  .carousel__subtitle {
     font-size: 4rem;
   }
 }
 
 @media screen and (max-width: 1025px) {
-  .carousel__title  {
+  .header img {
+    height: 80vh;
+  }
+  .carousel__title {
     font-size: 2.2rem;
   }
-  .carousel__subtitle{
+  .carousel__subtitle {
     font-size: 1.7rem;
   }
 }
+
 @media screen and (max-width: 650px) {
-  .carousel__title  {
+  .header img {
+    height: 60vh;
+  }
+  .carousel__title {
     font-size: 1.5rem;
   }
-  .carousel__subtitle{
+  .carousel__subtitle {
     font-size: 1rem;
   }
 }

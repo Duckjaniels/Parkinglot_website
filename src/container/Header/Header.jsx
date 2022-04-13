@@ -1,18 +1,15 @@
-import React from 'react';
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './Header.scss';
-import {PhotoCarousel} from "../../components/PhotoCarousel/PhotoCarousel";
-
-
-
+import "./Header.scss";
+import { PhotoCarousel } from "../../components/PhotoCarousel/PhotoCarousel";
 
 const Header = () => {
-    return(
-        <header>
+  return (
+    <header>
       <div className="header__carousel">
-          <PhotoCarousel/>
+        <PhotoCarousel />
       </div>
-
-        </header>
-)};
+    </header>
+  );
+};
 export default Header;
