@@ -1,117 +1,115 @@
 const subscription = [
   {
-    title: 'Samochód osobowy',
-    price: '150 pln',
-    tags: 'audi a4, vw passat',
+    title: "Samochód osobowy",
+    price: "150 pln",
+    tags: "audi a4, vw passat",
   },
   {
-    title: 'Samochód dostawczy',
-    price: '180 pln',
-    tags: 'vw transporter, renault master',
+    title: "Samochód dostawczy",
+    price: "180 pln",
+    tags: "vw transporter, renault master",
   },
   {
-    title: 'Motocykl',
-    price: '70 pln',
-    tags: 'kawasaki ninja, skuter piaggio',
+    title: "Motocykl",
+    price: "70 pln",
+    tags: "kawasaki ninja, skuter piaggio",
   },
   {
-    title: 'Rower',
-    price: '25 pln',
-    tags: 'rower, rower elektryczny',
+    title: "Rower",
+    price: "25 pln",
+    tags: "rower, rower elektryczny",
   },
 ];
 
 const day = [
   {
-    title: 'Samochód osobowy',
-    price: '25 pln',
-    tags: 'audi a4, vw passat',
+    title: "Samochód osobowy",
+    price: "25 pln",
+    tags: "audi a4, vw passat",
   },
   {
-    title: 'Samochód dostawczy',
-    price: '30 pln',
-    tags: 'vw transporter, renault master',
+    title: "Samochód dostawczy",
+    price: "30 pln",
+    tags: "vw transporter, renault master",
   },
   {
-    title: 'Motocykl',
-    price: '20 pln',
-    tags: 'kawasaki ninja, skuter piaggio',
+    title: "Motocykl",
+    price: "20 pln",
+    tags: "kawasaki ninja, skuter piaggio",
   },
   {
-    title: 'Rower',
-    price: '10 pln',
-    tags: 'rower, rower elektryczny',
+    title: "Rower",
+    price: "10 pln",
+    tags: "rower, rower elektryczny",
   },
 ];
 
 const hourly = [
   {
-    title: 'Samochód osobowy',
-    price: '7 pln',
-    tags: 'audi a4, vw passat',
+    title: "Samochód osobowy",
+    price: "7 pln",
+    tags: "audi a4, vw passat",
   },
   {
-    title: 'Samochód dostawczy',
-    price: '8 pln',
-    tags: 'vw transporter, renault master',
+    title: "Samochód dostawczy",
+    price: "8 pln",
+    tags: "vw transporter, renault master",
   },
   {
-    title: 'Motocykl',
-    price: '5 pln',
-    tags: 'kawasaki ninja, skuter piaggio',
+    title: "Motocykl",
+    price: "5 pln",
+    tags: "kawasaki ninja, skuter piaggio",
   },
   {
-    title: 'Rower',
-    price: '3 pln',
-    tags: 'rower, rower elektryczny',
+    title: "Rower",
+    price: "3 pln",
+    tags: "rower, rower elektryczny",
   },
 ];
-const navList =[
+const navList = [
   {
     className: "p__opensans",
     to: "/home",
-    name: "Strona Główna"
+    name: "Strona Główna",
   },
   {
     className: "p__opensans",
     to: "/about",
-    name: "O nas"
+    name: "O nas",
   },
   {
     className: "p__opensans",
     to: "/find",
-    name: "Lokalizacja"
+    name: "Lokalizacja",
   },
   {
     className: "p__opensans",
     to: "/pricing",
-    name: "Cennik"
+    name: "Cennik",
   },
   {
     className: "p__opensans",
     to: "/rules",
-    name: "Regulamin"
+    name: "Regulamin",
   },
   {
     className: "p__opensans",
     to: "/contact",
-    name: "Kontakt"
-
-  }
-]
-const contactInfo =[
-
+    name: "Kontakt",
+  },
+];
+const contactInfo = [
   {
     className: "p__opensans",
-    name: "ul. Białoruska 45, 30-633 Kraków"
+    name: "ul. Białoruska 45, 30-633 Kraków",
   },
   {
     className: "p__opensans",
-    name: "Tel. 602-897-304"
+    name: "Tel. 602-897-304",
   },
   {
     className: "p__opensans",
-    name: "maksym73@icloud.com"
+    name: "maksym73@icloud.com",
   },
-]
+];
 export default { subscription, day, hourly, navList, contactInfo };

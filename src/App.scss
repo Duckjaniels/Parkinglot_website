@@ -14,7 +14,7 @@
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  font-feature-settings: 'tnum' on, 'lnum' on;
+  font-feature-settings: "tnum" on, "lnum" on;
   line-height: 29.9px;
   font-size: 23px;
 }
@@ -38,7 +38,6 @@
   text-transform: capitalize;
 }
 
-
 @media screen and (min-width: 2000px) {
   .p__cormorant {
     font-size: 37px;
@@ -54,8 +53,8 @@
     font-size: 150px;
     line-height: 210px;
   }
-
 }
+
 @media screen and (max-width: 1150px) {
   .app__wrapper {
     flex-direction: column;
@@ -72,7 +71,7 @@
   .section__padding {
     padding: 4rem 2rem;
   }
-  
+
   .p__cormorant {
     font-size: 21px;
   }

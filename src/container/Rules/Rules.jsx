@@ -1,11 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import './Rules.scss';
 import PDFFile from "../../components/PDFFIle/PDFFile";
 
 const Rules = () => (
   <div>
-    <PDFFile/>
+    <PDFFile />
   </div>
 );
 

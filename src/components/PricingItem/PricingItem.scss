@@ -1,32 +1,36 @@
-.app__pricingItem{
+.app__pricingItem {
   width: 100%;
   margin: 1rem 0;
   display: flex;
   flex-direction: column;
-
 }
-.app__pricingItem-head{
+
+.app__pricingItem-head {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 0.7rem;
 }
-.app__pricingItem-sub{
+
+.app__pricingItem-sub {
   width: 100%;
   margin-top: 0.2rem;
 }
-.app__pricingItem-name{
+
+.app__pricingItem-name {
   flex: 1;
 }
-.app__pricingItem-dash{
+
+.app__pricingItem-dash {
   position: static;
   width: 60px;
   height: 1px;
 
-  background: #FFFFFA;
+  background: #fffffa;
   margin: 0 1rem;
 }
-.app__pricingItem-price{
+
+.app__pricingItem-price {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;

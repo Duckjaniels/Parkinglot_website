@@ -33,7 +33,7 @@ form {
   width: 80%;
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(45deg, #80FFDB, #5390D9);
+  background: linear-gradient(45deg, #80ffdb, #5390d9);
   overflow: hidden;
   flex-direction: column;
   border-radius: 20px;
@@ -130,7 +130,6 @@ form button:hover {
 }
 
 @media screen and(max-width: 1150px) {
-
   .contactme {
     height: 150vh;
 
@@ -195,7 +194,6 @@ form button:hover {
       }
     }
 
-
     .contact__overlay {
       height: 150vh;
     }
@@ -220,14 +218,13 @@ form button:hover {
     }
 
     .form__contact-date input {
-      margin-bottom: 15px
+      margin-bottom: 15px;
     }
   }
 }
 
 @media screen and (max-width: 600px) {
   .contactme {
-
     h1 {
       font-size: 1.3rem;
     }

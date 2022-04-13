@@ -7,7 +7,9 @@
   justify-content: space-around;
   align-items: center;
 
-  .app__footer-contact, h1, p {
+  .app__footer-contact,
+  h1,
+  p {
     color: var(--color-blue);
     text-decoration: none;
   }
@@ -17,7 +19,8 @@
     width: 100%;
   }
 
-  .app__footer-nav, li {
+  .app__footer-nav,
+  li {
     color: var(--color-blue);
     flex: 1;
     display: flex;
@@ -34,7 +37,8 @@
     }
   }
 
-  .app__footer-logo, img {
+  .app__footer-logo,
+  img {
     width: 150px;
     height: 150px;
   }

@@ -9,7 +9,6 @@
     font-size: 4rem;
   }
 
-
   .findus__content {
     display: flex;
     justify-content: space-around;
@@ -51,11 +50,9 @@
       }
 
       a {
-
         font-weight: bold;
         text-align: center;
         color: white;
-
       }
 
       &:hover {
@@ -105,7 +102,6 @@
   .findus__title {
     font-size: 2rem;
     margin-bottom: 20px;
-
   }
   .app__findus .findus__content-right li {
     font-size: 0.9rem;
@@ -125,4 +121,3 @@
     }
   }
 }
-

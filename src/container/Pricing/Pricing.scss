@@ -4,23 +4,25 @@
   height: 600px;
   margin-top: 120px;
 
-.headtext__cormorant{
-  margin-bottom: 2rem;
-  text-align: center;
-  z-index: 2;
-  text-transform: uppercase;
-}
+  .headtext__cormorant {
+    margin-bottom: 2rem;
+    text-align: center;
+    z-index: 2;
+    text-transform: uppercase;
+  }
+
   .app__pricing-backgroundimage {
     position: absolute;
     z-index: -2;
 
-    img{
+    img {
       width: 100vw;
       height: 750px;
       filter: blur(8px);
     }
   }
-  .app__pricing-pricing{
+
+  .app__pricing-pricing {
     z-index: 2;
     width: 100%;
     color: white;
@@ -30,45 +32,49 @@
     align-items: flex-start;
     flex-direction: row;
   }
-  .app__pricing-heading{
+
+  .app__pricing-heading {
     font-family: var(--font-base);
     font-weight: 600;
     font-size: 45px;
     line-height: 58px;
     letter-spacing: 0.04em;
   }
-  .app__pricing-subscription, .app__pricing-day, .app__pricing-hourly{
+
+  .app__pricing-subscription,
+  .app__pricing-day,
+  .app__pricing-hourly {
     flex: 1;
     width: 100%;
     flex-direction: column;
-
   }
 }
 
-@media screen and(max-width: 1150px){
-  .app__pricing{
+@media screen and(max-width: 1150px) {
+  .app__pricing {
     height: 100%;
     background-color: var(--color-blue);
     margin-top: 0;
     padding-top: 20px;
-    .headtext__cormorant{
-      margin-bottom: 0;
 
+    .headtext__cormorant {
+      margin-bottom: 0;
     }
 
-    .app__pricing-backgroundimage{
+    .app__pricing-backgroundimage {
       display: none;
     }
 
-.app__pricing-pricing{
-  flex-direction: column;
-  .app__pricing-subscription, .app__pricing-day, .app__pricing-hourly{
-    .app__pricing-heading{
-      font-size: 35px;
+    .app__pricing-pricing {
+      flex-direction: column;
+
+      .app__pricing-subscription,
+      .app__pricing-day,
+      .app__pricing-hourly {
+        .app__pricing-heading {
+          font-size: 35px;
+        }
+      }
     }
   }
 }
-}
-}
-
-
