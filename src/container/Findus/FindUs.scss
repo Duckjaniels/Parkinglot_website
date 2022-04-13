@@ -1,17 +1,21 @@
-.app__findus{
+.app__findus {
   margin: 25px;
-  .findus__title{
+
+  .findus__title {
     text-align: center;
     padding: 10px;
     text-transform: uppercase;
-    color:var(--color-blue);
+    color: var(--color-blue);
     font-size: 4rem;
   }
-  .findus__content{
+
+
+  .findus__content {
     display: flex;
     justify-content: space-around;
   }
-  .findus__content-right{
+
+  .findus__content-right {
     margin-top: 25px;
     display: flex;
     align-items: center;
@@ -23,11 +27,13 @@
       display: flex;
       justify-content: space-between;
       color: var(--color-blue);
-      span{
+
+      span {
         margin-left: 80px;
       }
-      }
-    .findus__conent-button{
+    }
+
+    .findus__conent-button {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -40,30 +46,34 @@
       text-transform: uppercase;
       margin-top: 25px;
 
-      &:hover{
+      &:hover {
         background-color: var(--color-grey);
       }
-      a{
+
+      a {
 
         font-weight: bold;
         text-align: center;
         color: white;
 
       }
-      &:hover{
+
+      &:hover {
         color: var(--color-blue);
       }
     }
-    }
   }
-.leaflet-container{
+}
+
+.leaflet-container {
   width: 50vw;
   height: 50vh;
 }
+
 @media screen and (max-width: 650px) {
   .app__findus {
     .leaflet-container {
-      width: 90vw;
+      width: 87vw;
       height: 45vh;
       margin-bottom: 5px;
       z-index: 4;
@@ -78,11 +88,12 @@
     margin-bottom: 20px;
   }
   .app__findus .findus__content-right li {
-   display:none;
-    }
+    display: none;
   }
+}
+
 @media screen and (max-width: 990px) {
-  .leaflet-container{
+  .leaflet-container {
     width: 50vw;
     height: 30vh;
     margin-top: 25px;
@@ -100,6 +111,7 @@
     font-size: 0.9rem;
   }
 }
+
 @media screen and (max-width: 730px) {
   .app__findus {
     height: 75vh;
@@ -107,7 +119,8 @@
 
   .app__findus .findus__content-right li {
     font-size: 0.7rem;
-    span{
+
+    span {
       margin-left: 50px;
     }
   }
