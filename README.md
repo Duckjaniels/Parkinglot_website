@@ -1,68 +1,78 @@
-Parking lot responsive website
+Parking lot website
 
-## Available Scripts
+Full responsive commercial website - done as a final project at the end of CodersLab bootcamp.
 
-In the project directory, you can run:
+Website developed on personal domain [_here_](https://parking24h-krakow.pl)
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Contact](#contact)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## General Information
 
-### `npm test`
+- Project created as a final draft of CodersLab bootcamp.
+- Commercial website of neighborhood parking lot with easy form allowing user send task about free parking places,
+  clearly visible pricing list, map with parking location pin, section with pdf rules and photo gallery.
+- Idea and design conceived by myself.
+- Website is in Polish, compliant with today's web standards.
+- The point was to create a website working on desktop as well as on mobile devices (phones, tablets).
+- The main users of an application will be elderly people, so assumption was simple, clear design, easy to use.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- React
+- React Router
+- React leaflet map
+- React pdf viewer
+- Bootstrap
+- Emailjs
+- HTML
+- SCSS
+- JavaScript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![1](./src/assets/ss1.png)
+![1](./src/assets/ss2.png)
+![1](./src/assets/ss3.png)
+![1](./src/assets/ss4.png)
+![1](./src/assets/ss5.png)
+![1](./src/assets/ss6.png)
+![1](./src/assets/ss7.png)
+![1](./src/assets/ss8.png)
+![1](./src/assets/ss9.png)
+![1](./src/assets/ss10.png)
+![1](./src/assets/ss11.png)
+![1](./src/assets/ss12.png)
+![1](./src/assets/ss13.png)
+![1](./src/assets/ss14.png)
+![1](./src/assets/ss15.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup
 
-### `npm run eject`
+- Download or clone repository / `git clone repo_address`
+- Install dependencies / `npm install`
+- Start app by `npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Status
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[//]: # (Assumed learning task completed.)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Room for Improvement
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Admin panel with a simple database where owner would be able to manage company clients, free parking spots, issue
+  invoices.
+- LogIn / LogOut user features
+- Advanced form connected with database where user asking about free space would get a respond from database about
+  availability.
+- Online payment gateway making it easier for the user to pay for the subscription
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Created by [_Duckjaniels_](https://www.linkedin.com/in/maksym-kaczorowski-008b3a154/) - feel free to contact me!
