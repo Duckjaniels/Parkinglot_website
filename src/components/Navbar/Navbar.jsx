@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HiOutlineMenu } from "react-icons/hi";
 import { RiParkingBoxLine } from "react-icons/ri";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { data } from "../../constants";
 import images from "../../constants/images";
 import "./Navbar.scss";
@@ -11,7 +11,9 @@ const Navbar = () => {
   return (
     <nav className={"app__navbar"}>
       <div className={"app__navbar-logo"}>
-        <img src={images.sign24h} alt="app logo" />
+        <NavLink to="/home">
+          <img src={images.sign24h} alt="app logo"></img>
+        </NavLink>
       </div>
 
       <ul className="app__navbar-links">
