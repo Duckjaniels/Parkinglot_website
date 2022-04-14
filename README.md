@@ -41,7 +41,6 @@ Website developed on personal domain [_here_](https://parking24h-krakow.pl)
 ![1](./src/assets/ss1.png)
 ![1](./src/assets/ss3.png)
 ![1](./src/assets/ss4.png)
-
 ![1](./src/assets/ss6.png)
 ![1](./src/assets/ss7.png)
 ![1](./src/assets/ss8.png)
