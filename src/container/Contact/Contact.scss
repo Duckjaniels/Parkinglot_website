@@ -14,7 +14,6 @@
 
 .contact__overlay {
   padding-top: 10%;
-  padding-bottom: 10%;
   background-color: rgba(0, 0, 0, 0.921);
 }
 
@@ -37,6 +36,7 @@ form {
   overflow: hidden;
   flex-direction: column;
   border-radius: 20px;
+  padding: 50px 0;
 }
 
 form button {
@@ -131,7 +131,7 @@ form button:hover {
 
 @media screen and(max-width: 1150px) {
   .contactme {
-    height: 150vh;
+    height: 100vh;
 
     .contact__overlay {
       padding-top: 5%;
