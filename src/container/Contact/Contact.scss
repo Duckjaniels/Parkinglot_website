@@ -130,11 +130,9 @@ form button:hover {
 }
 
 @media screen and(max-width: 1150px) {
-  .contactme {
-    height: 100vh;
 
     .contact__overlay {
-      padding-top: 5%;
+      padding-top: 2%;
     }
 
     .row {
@@ -147,10 +145,6 @@ form button:hover {
         text-align: center;
         width: 100%;
       }
-    }
-
-    .contact__overlay {
-      height: 125vh;
     }
 
     form {
@@ -174,14 +168,10 @@ form button:hover {
     }
   }
   .form__contact textarea {
-    width: 200px;
+    width: 300px;
   }
-}
 
 @media screen and (max-width: 750px) {
-  .contactme {
-    height: 150vh;
-
     .form__contact {
       flex-direction: column;
 
@@ -192,10 +182,6 @@ form button:hover {
           margin: 0;
         }
       }
-    }
-
-    .contact__overlay {
-      height: 150vh;
     }
 
     form {
@@ -221,11 +207,9 @@ form button:hover {
       margin-bottom: 15px;
     }
   }
-}
 
 @media screen and (max-width: 600px) {
-  .contactme {
-    h1 {
+  h1 {
       font-size: 1.3rem;
     }
 
@@ -233,4 +217,4 @@ form button:hover {
       font-size: 0.8rem;
     }
   }
-}
+
