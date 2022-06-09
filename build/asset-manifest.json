@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fff54e7c.css",
-    "main.js": "/static/js/main.3a9f7823.js",
+    "main.css": "/static/css/main.ee6ecca0.css",
+    "main.js": "/static/js/main.102bed29.js",
     "static/media/gallery05.jpeg": "/static/media/gallery05.ddedcb87d8ef61b28504.jpeg",
     "static/media/gallery02.jpeg": "/static/media/gallery02.69689a449bd5348795b6.jpeg",
     "static/media/gallery04.jpeg": "/static/media/gallery04.1ba02cffab34161176a9.jpeg",
@@ -9,14 +9,14 @@
     "static/media/gallery03.jpeg": "/static/media/gallery03.b77932ad16ef9ecb6137.jpeg",
     "static/media/r8_parking.jpeg": "/static/media/r8_parking.81d1f1c89c4aaa2dd4d1.jpeg",
     "static/media/bg_pricing.jpeg": "/static/media/bg_pricing.670224a5b6495f0e1c59.jpeg",
-    "static/media/regulamin_parking-kopia.pdf": "/static/media/regulamin_parking-kopia.4f09dec156d57303f67c.pdf",
+    "static/media/regulamin_parking-kopia.pdf": "/static/media/regulamin_parking-kopia.f468a5a72cb6be5d545b.pdf",
     "static/media/sign24h.jpeg": "/static/media/sign24h.90e073805a0f234d470f.jpeg",
     "index.html": "/index.html",
-    "main.fff54e7c.css.map": "/static/css/main.fff54e7c.css.map",
-    "main.3a9f7823.js.map": "/static/js/main.3a9f7823.js.map"
+    "main.ee6ecca0.css.map": "/static/css/main.ee6ecca0.css.map",
+    "main.102bed29.js.map": "/static/js/main.102bed29.js.map"
   },
   "entrypoints": [
-    "static/css/main.fff54e7c.css",
-    "static/js/main.3a9f7823.js"
+    "static/css/main.ee6ecca0.css",
+    "static/js/main.102bed29.js"
   ]
 }
