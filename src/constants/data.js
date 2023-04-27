@@ -1,22 +1,22 @@
 const subscription = [
   {
     title: "Samochód osobowy",
-    price: "150 pln",
+    price: "170 pln",
     tags: "audi a4, vw passat",
   },
   {
     title: "Samochód dostawczy",
-    price: "180 pln",
+    price: "200 pln",
     tags: "vw transporter, renault master",
   },
   {
     title: "Motocykl",
-    price: "70 pln",
+    price: "80 pln",
     tags: "kawasaki ninja, skuter piaggio",
   },
   {
     title: "Rower",
-    price: "25 pln",
+    price: "30 pln",
     tags: "rower, rower elektryczny",
   },
 ];
@@ -24,12 +24,12 @@ const subscription = [
 const day = [
   {
     title: "Samochód osobowy",
-    price: "25 pln",
+    price: "30 pln",
     tags: "audi a4, vw passat",
   },
   {
     title: "Samochód dostawczy",
-    price: "30 pln",
+    price: "40 pln",
     tags: "vw transporter, renault master",
   },
   {
@@ -47,12 +47,12 @@ const day = [
 const hourly = [
   {
     title: "Samochód osobowy",
-    price: "7 pln",
+    price: "8 pln",
     tags: "audi a4, vw passat",
   },
   {
     title: "Samochód dostawczy",
-    price: "8 pln",
+    price: "10 pln",
     tags: "vw transporter, renault master",
   },
   {
